@@ -1,0 +1,30 @@
+.navbar{
+    height:100px;
+
+    .wrapper{
+        max-width: 1000px;
+        margin: auto;// used to center the element
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+      
+        
+
+
+        span{
+            font-weight: bold;
+        }
+
+        .social{
+            display: flex;
+            gap: 20px;
+
+
+            img{
+                width: 18px;
+                height: 10px;
+            }
+        }
+    }
+}
